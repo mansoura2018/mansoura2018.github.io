@@ -45,7 +45,6 @@ h1 {
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
-    /*text-transform: uppercase;*/
     font-style: italic;
 
 }
@@ -95,8 +94,13 @@ h2:after {
 }
 
 .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -112,11 +116,14 @@ img {
     width: 300px;
     height: 300px;    
     border-radius: 50%;
+    -webkit-transition: all 1s ;
     transition: all 1s ;
 }
 
 img:hover {
+    -webkit-transform: scale(.8);
     transform: scale(.8);
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
     border-radius: 0;
 }
