@@ -7,6 +7,8 @@
         padding: 0 2%;
     }
     .row { padding: 0 2%; }
+    h1 {font-size: 175%;}
+
 
 }
 
@@ -14,6 +16,7 @@
 
 /* Small tablets to big tablet: from 768 to 1023px */
 @media only screen and (max-width: 1023px) {
+    h1 {font-size: 150%;}
 
 }
 
@@ -23,7 +26,8 @@
 
 /* Small phones to small tablets: from 481 to 480px */
 @media only screen and (max-width: 767px) {
-
+    html, body {font-size: 32px;}
+    h1 {font-size: 100%;}
 }
 
 
@@ -31,6 +35,6 @@
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-
+    html, body {font-size: 25px;}
 }
 
