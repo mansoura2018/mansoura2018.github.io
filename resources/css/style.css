@@ -57,9 +57,16 @@ h1 {
 
 }
 
-.row {
-    margin-top: 50px;
+.redtxt {
+    color: #ff0000;
+    font-size: 75%;
 }
+
+.dis {
+    display: none;
+}
+
+
 
 .subject {
     margin-right: 10%;
@@ -70,7 +77,6 @@ h1 {
 h2 {
     font-size: 200%;
     text-align: right;
-    margin-top: 20px;
 }
 
 h2:after {
@@ -78,9 +84,10 @@ h2:after {
     height: 2px;
     background-color: #6f9d6f;
     content: " ";
-    width: 28%;
-    margin-top: 40px;
-    margin-left: 70%;
+    width: 25%;
+    text-align: right;
+    margin-top: 25px;
+    margin-left: 75%;
 
 }
 
@@ -137,7 +144,6 @@ footer {
     background-color: #141414;
     font-size: 50%;
     padding: 30px;
-    margin-top: 35px;
 
 }
 
@@ -217,3 +223,26 @@ input[type=submit] {
 }
 
 
+.footerLink {
+    text-decoration: none;
+    color: #6f9d6f;
+    font-size: 120%;
+}
+
+.cityInfo {
+    background-color: #212121;
+    text-align: right;
+
+}
+
+.longCopy {
+    margin: 0% 9% 3% 9%;
+    font-size: 90%;
+    padding-bottom: 40px;
+
+}
+
+.row {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
