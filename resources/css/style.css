@@ -54,6 +54,7 @@ h1 {
     margin: 10px;
     border-radius: 200px;
     font-size: 25px;
+    
 
 }
 
@@ -69,26 +70,27 @@ h1 {
 .subject1 {
     text-align: right;
     font-size: 100%;
+    float: right;
 }
 
 .subject {
     margin-right: 10%;
     text-align: right;
     font-size: 100%;
+    float: right;
 }
 
-.subject1:after {
+.subject1::after {
     display: block;
     height: 2px;
     background-color: #757575;
     content: " ";
-    width: 230px;
-    text-align: right;
-    margin-left: 82%;
-    margin-top: 25px;
-    
+    width: 220px;
+    margin-top: 20px;
+    margin-bottom: 25px;
 }
 
+.long {clear: both;}
 
 h2 {
     font-size: 200%;
@@ -101,22 +103,12 @@ h2 {
     background-color: #6f9d6f;
     content: " ";
     width: 320px;
-    text-align: right;
     margin-top: 25px;
-    margin-left: 75%;
-
-}
-
-.clearfix {zoom:1}
-.clearfix:after {
-    content: '.';
-    clear:both;
-    display: block;
-    visibility: hidden;
-    margin-bottom: -24px;
+    margin-bottom: 35px;
 }
 
 .container {
+    clear: right;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -160,7 +152,6 @@ footer {
     background-color: #141414;
     font-size: 50%;
     padding: 30px;
-
 }
 
 .footer-nav {
@@ -214,6 +205,8 @@ input[type=submit] {
     border: 1px solid #2f3b3f;
     color: #fff;
     margin-right: 15px;
+    cursor: progress;
+
 }
 
 .btn-full:hover, 
@@ -222,6 +215,13 @@ input[type=submit] {
     border: 1px solid #212527;
     background-color: #000000;
 
+}
+
+.btn-ghost {
+    border: 1px solid #2f3b3f;
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer;
 }
 
 .btn-ghost:link,
@@ -259,7 +259,7 @@ input[type=submit] {
     color: #757575;
 }
 
-.row:first-child {    color: #757575; }
+.row:first-child { color: #757575; }
 
 .row {
     padding-top: 40px;
