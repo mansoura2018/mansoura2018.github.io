@@ -41,7 +41,7 @@ header {
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
-    color: #fff;
+    color: #C8E6C9;
     font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
@@ -66,7 +66,10 @@ h1 {
     display: none;
 }
 
-
+.subject1 {
+    text-align: right;
+    font-size: 100%;
+}
 
 .subject {
     margin-right: 10%;
@@ -74,17 +77,30 @@ h1 {
     font-size: 100%;
 }
 
+.subject1:after {
+    display: block;
+    height: 2px;
+    background-color: #757575;
+    content: " ";
+    width: 230px;
+    text-align: right;
+    margin-left: 82%;
+    margin-top: 25px;
+    
+}
+
+
 h2 {
     font-size: 200%;
     text-align: right;
 }
 
-h2:after {
+.subject:after {
     display: block;
     height: 2px;
     background-color: #6f9d6f;
     content: " ";
-    width: 25%;
+    width: 320px;
     text-align: right;
     margin-top: 25px;
     margin-left: 75%;
@@ -237,11 +253,13 @@ input[type=submit] {
 
 .longCopy {
     margin: 0% 9% 3% 9%;
-    font-size: 90%;
+    font-size: 80%;
     padding-bottom: 40px;
     line-height: 200%;
-
+    color: #757575;
 }
+
+.row:first-child {    color: #757575; }
 
 .row {
     padding-top: 40px;
